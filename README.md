@@ -1,6 +1,6 @@
 # ChromeExtension
 一个Chrome的插件程序   
-＜/br＞   
+＜br/＞   
 ＜/br＞     
 ＜/br＞      
 使用方法：      
