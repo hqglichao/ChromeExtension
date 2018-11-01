@@ -15,5 +15,12 @@
     	"https://*/",
     	"https://*/*"
 ],
-"background": {"scripts": ["js/background.js"]}
+"background": {"scripts": ["js/background.js"]},
+"content_scripts": [
+{
+"matches": ["https://detail.m.tmall.com/*", "http://detail.m.tmall.com/*", "https://buy.m.tmall.com/*", "http://buy.m.tmall.com/*"],
+"js": ["js/listener.js"],
+"run_at": "document_start"
+}
+]
 }

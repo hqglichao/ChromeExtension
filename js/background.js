@@ -3,7 +3,10 @@ var blockUrl = [
     "*://*.baidustatic.com/*"
 ];
 chrome.webRequest.onBeforeRequest.addListener(
-    function(details) { console.log("ddd");return {cancel: true}; },
+    function(details) { 
+        console.log("ddd");
+        return {cancel: true};
+    },
     {urls: blockUrl},
     ["blocking"]
 );
